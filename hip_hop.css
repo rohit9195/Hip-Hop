@@ -1,0 +1,192 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+
+#background{
+    background-color: rgb(255,122,89);
+    width: 100vw;
+    height: 100vh;
+}
+
+#big-circle{
+    height: 10vw;
+    width: 10vw;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 50vw;
+    margin-top: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#small-circle{
+    height: 6vw;
+    width: 6vw;
+    background-color: rgb(255,122,89);
+    border-radius: 50%;
+}
+
+#round-circle{
+    height: 1.4vw;
+    width: 1.4vw;
+    position : absolute;
+    border-radius: 50%;
+    background-color: rgb(255,122,89);
+    transform:  translateX(51.6px) ;
+    animation-name: hip-hop;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(1, -2.67, 0.7, 1.0);
+
+}
+
+@keyframes hip-hop {
+    from { transform: rotate(0deg) translateX(51.6px) ; }
+    to   { transform: rotate(360deg) translateX(51.6px) ; }
+}
+#strip-1{
+    height: 3vh;
+    width: 3.5vw;
+    background-color: white;
+    transform: rotate(-45deg);
+    position: absolute;
+    margin-top:58vh ;
+    margin-left: 48.35vw;
+    animation-name: hiphop-strip-1;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+} 
+
+@keyframes hiphop-strip-1{
+    0% { margin-top: 58vh;
+        margin-left: 48.35vw; }
+    50% { margin-top: 55.5vh;
+        margin-left: 49.68vw;}
+    100% {
+        margin-top: 58vh;
+        margin-left: 48.35vw;
+    }
+}
+
+#strip-2{
+    height: 3vh;
+    width: 6.95vw;
+    background-color: white;
+    transform: rotate(40deg);
+    position : absolute;
+    margin-top: 38vh;
+    margin-left: 45vw;
+    animation-name: hiphop-strip-2;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-delay: 0.6s;
+}
+
+@keyframes hiphop-strip-2{
+    0%{ margin-top: 38vh;
+        margin-left: 45vw;}
+    50%{ margin-top: 39.8vh;
+        margin-left: 46.6vw;}
+    100%{
+        margin-top: 38vh;
+        margin-left: 45vw;
+    }
+
+}
+#strip-3{
+    height: 3vh;
+    width:  2.72vw;
+    background-color: white;
+    transform: rotate(90deg);
+    position: absolute;
+    margin-top: 36vh;
+    margin-left: 53.5vw;
+    animation-name: hiphop-strip-3;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-delay: 1.6s;
+}
+
+@keyframes hiphop-strip-3{
+    0%{ margin-top: 36vh;}
+    50% { margin-top: 39.56vh;}
+    100% {margin-top: 36vh;}
+}
+#circle-1{
+    height: 2.8vw;
+    width: 2.8vw;
+    background-color: white;
+    border-radius: 50%;
+    position : absolute;
+    margin-top: 60vh;
+    margin-left: 47vw;
+    animation-name: hiphop-circle-1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes hiphop-circle-1{
+    0%{ margin-top: 60vh;
+        margin-left: 47vw;}
+    50% { margin-top: 57.5vh;
+        margin-left: 48.33vw;}
+    100% {
+        margin-top: 60vh;
+        margin-left: 47vw;
+    }
+}
+#circle-2{
+    height: 3vw;
+    width: 3vw;
+    background-color: white;
+    border-radius: 50%;
+    position : absolute;
+    margin-top: 30.5vh;
+    margin-left: 43.5vw;
+    animation-name: hiphop-circle-2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-delay: 0.6s;
+}
+
+@keyframes hiphop-circle-2{
+    0%{ margin-top: 30.5vh;
+        margin-left: 43.5vw;}
+    50% { margin-top: 32.3vh;
+        margin-left: 45.1vw;}
+    100%{
+        margin-top: 30.5vh;
+        margin-left: 43.5vw;
+    }
+}
+#circle-3{
+    height: 2.9vw;
+    width: 2.9vw;
+    background-color: white;
+    border-radius: 50%;
+    position : absolute;
+    margin-top: 29.5vh;
+    margin-left: 53.35vw;
+    animation-name: hiphop-circle-3;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-delay: 1.6s;
+}
+
+@keyframes hiphop-circle-3{
+    0%{ margin-top: 29.5vh;}
+    50%{ margin-top: 33.06vh;}
+    100%{ margin-top: 29.2vh;}
+}
+
+
