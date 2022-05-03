@@ -7,10 +7,15 @@ In this project, I made a Hip-Hop Circular Buzzer which play for infinite time
 
 - [@RohitUdaiwal](https://www.github.com/rohit9195)
 
+# Tools
+
+## Html
+![alt text](https://github.com/rohit9195/Hip-Hop/blob/main/default.webp?raw=true)
+
 
 ## Screenshots
 
-![alt text](https://github.com/rohit9195/Hip-Hop/blob//default.webp?raw=true)
+![alt text](https://github.com/rohit9195/Hip-Hop/blob/main/default.webp?raw=true)
 
-# Resume application project
+# 
 
