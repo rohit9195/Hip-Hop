@@ -16,9 +16,9 @@ In this project, I made a Hip-Hop Circular Buzzer which play for infinite time
 
 ![alt text](https://github.com/rohit9195/Hip-Hop/blob/main/css_logo.png?raw=true)
 
-##Bootstrap
+## Bootstrap
 
-![alt text](https://github.com/rohit9195/Hip-Hop/blob/main/bootstrap_logo.png?raw=true)
+![alt text](https://github.com/rohit9195/Hip-Hop/blob/main/bootstrap_logo.jpg?raw=true)
 
 ## Screenshots
 
